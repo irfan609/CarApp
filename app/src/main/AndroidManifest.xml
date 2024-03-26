@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.irfan.app">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Car Rental"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.App.NoActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name="com.irfan.app.driver.DriverHomeNotBookedActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.irfan.app.driver.DriverHomeBookedActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.irfan.app.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.irfan.app.vehicleOwner.VehicleOwnerAddedActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.irfan.app.vehicleOwner.VehicleOwnerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.irfan.app.vehicleOwner.VehicleOwnerAddVehicleActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.irfan.app.customer.ViewVehiclesActivityCustomListView"
+            android:exported="false" />
+        <activity
+            android:name="com.irfan.app.customer.ViewVehiclesActivityVehicle"
+            android:exported="false" />
+        <activity
+            android:name="com.irfan.app.customer.BookingDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.irfan.app.customer.ViewVehiclesActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.irfan.app.customer.ViewSupportActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.irfan.app.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.irfan.app.driver.DriverHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.irfan.app.customer.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.irfan.app.LoginActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

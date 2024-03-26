@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".customer.BookingBookedFragment" >
+
+        <ImageView
+            android:id="@+id/background"
+            android:layout_width="match_parent"
+            android:layout_height="1240dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/background" />
+
+        <ImageView
+            android:id="@+id/bookingcard"
+            android:layout_width="350dp"
+            android:layout_height="480dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/card" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/bookingcard"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+
+            android:textSize="20sp"
+            android:text="Booking Details" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/bookingcard"
+            android:layout_alignTop="@id/textView27"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="50dp"
+
+            android:text="Address" />
+
+        <TextView
+            android:id="@+id/textView_Address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/textView21"
+            android:layout_alignTop="@id/textView21"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="30dp"
+
+            android:text="Loading..." />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/textView21"
+            android:layout_alignTop="@id/textView21"
+            android:layout_marginTop="70dp"
+
+            android:text="Duration" />
+
+        <TextView
+            android:id="@+id/textView_Duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/textView19"
+            android:layout_alignTop="@id/textView19"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="30dp"
+
+            android:text="Loading..." />
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/textView19"
+            android:layout_alignTop="@id/textView19"
+            android:layout_marginTop="70dp"
+
+            android:text="Booked date" />
+
+        <TextView
+            android:id="@+id/textView_BookedDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/textView51"
+            android:layout_alignTop="@id/textView51"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="30dp"
+
+            android:text="Loading..." />
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/textView51"
+            android:layout_alignTop="@id/textView51"
+            android:layout_marginTop="70dp"
+
+            android:text="End date" />
+
+        <TextView
+            android:id="@+id/textView_EndDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/textView52"
+            android:layout_alignTop="@id/textView52"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="30dp"
+
+            android:text="Loading..." />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/textView52"
+            android:layout_alignTop="@id/textView52"
+            android:layout_marginTop="70dp"
+
+            android:text="Driver" />
+
+        <TextView
+            android:id="@+id/textView_Driver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/textView4"
+            android:layout_alignTop="@id/textView4"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="30dp"
+
+            android:text="Loading..." />
+
+        <ImageView
+            android:id="@+id/vehiclecard"
+            android:layout_width="350dp"
+            android:layout_height="695dp"
+            android:layout_alignTop="@id/bookingcard"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="470dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/card" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/vehiclecard"
+            android:text="Vehicle details"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignTop="@id/textView26"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            tools:srcCompat="@drawable/ic_baseline_image_24" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/vehiclecard"
+            android:layout_alignTop="@id/imageView2"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="220dp"
+
+            android:text="Vehicle no." />
+
+        <TextView
+            android:id="@+id/textView_VehicleNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/textView14"
+            android:layout_alignTop="@id/textView14"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="30dp"
+
+            android:text="Loading..." />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/textView14"
+            android:layout_alignTop="@id/textView14"
+            android:layout_marginTop="70dp"
+
+            android:text="Model" />
+
+        <TextView
+            android:id="@+id/textView_Model"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/textView17"
+            android:layout_alignTop="@id/textView17"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="30dp"
+
+            android:text="Loading..." />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/textView17"
+            android:layout_alignTop="@id/textView17"
+            android:layout_marginTop="70dp"
+
+            android:text="Category" />
+
+        <TextView
+            android:id="@+id/textView_Category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/textView7"
+            android:layout_alignTop="@id/textView7"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="30dp"
+
+            android:text="Loading..." />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/textView7"
+            android:layout_alignTop="@id/textView7"
+            android:layout_marginTop="70dp"
+
+            android:text="Description" />
+
+        <TextView
+            android:id="@+id/textView_Description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/textView25"
+            android:layout_alignTop="@id/textView25"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="30dp"
+
+            android:text="Loading..." />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/textView25"
+            android:layout_alignTop="@id/textView25"
+            android:layout_marginTop="70dp"
+
+            android:text="Price" />
+        <TextView
+            android:id="@+id/rm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/textView23"
+            android:layout_alignTop="@id/textView23"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="30dp"
+
+            android:text="RM : " />
+
+        <TextView
+            android:id="@+id/textView_Price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/textView23"
+            android:layout_alignTop="@id/textView23"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="30dp"
+
+            android:text="Loading..." />
+
+    </RelativeLayout>
+</ScrollView>

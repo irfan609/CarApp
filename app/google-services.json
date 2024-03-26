@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "435294431123",
+    "project_id": "car-rental-f223a",
+    "storage_bucket": "car-rental-f223a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435294431123:android:a7c2eb8454d67ae76baa66",
+        "android_client_info": {
+          "package_name": "com.irfan.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435294431123-0nn9gqi0ggvi78uuumfdnjqlak6310j4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.irfan.app",
+            "certificate_hash": "ecaec66e5bca31c8761f7aded537550cb69d12fe"
+          }
+        },
+        {
+          "client_id": "435294431123-va2chlcbgskvbkd50vvu2em6sf5apr3p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRU3R09NLsCxYvXVCkFBiIsRetGUeNoMw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "435294431123-va2chlcbgskvbkd50vvu2em6sf5apr3p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
